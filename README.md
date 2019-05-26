@@ -9,6 +9,7 @@ Pug's CLI interface
 
 ## Usage
 
+
 ```
 $ pug [options] [dir|file ...]
 ```
