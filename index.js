@@ -268,7 +268,7 @@ function renderFile(path, rootPath) {
     if (program.extension)   extname = '.' + program.extension;
     else if (options.client) extname = '.js';
     else if (program.extension === '') extname = '';
-    else                     extname = '.php';
+    else                     extname = '';
 
     // path: foo.pug -> foo.<ext>
     path = path.replace(isPug, extname);
